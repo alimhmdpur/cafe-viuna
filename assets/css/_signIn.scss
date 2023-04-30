@@ -1,0 +1,105 @@
+.signPage {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .signIn-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      background-color: #6f4e37;
+      padding: 2.5rem;
+      width: 50vw;
+      @media (max-width: 1199.98px) {
+        width: 65vw;
+      }
+      @media (max-width: 991.98px) {
+        width: 75vw;
+      }
+      @media (max-width: 767.98px) {
+        width: 85vw;
+      }
+      @media (max-width: 520px) {
+        width: 95vw;
+      }
+      border-radius: 2rem;
+      .logoForm {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        .logoForm-title {
+          color: #d9aa11;
+          font-weight: 700;
+          font-size: 2.5rem;
+          @media (max-width: 1199.98px) {
+            font-size: 2.3rem;
+          }
+          @media (max-width: 991.98px) {
+            font-size: 2.2rem;
+          }
+          @media (max-width: 767.98px) {
+            font-size: 2.1rem;
+          }
+          @media (max-width: 520px) {
+            font-size: 1.9rem;
+          }
+          @media (max-width: 425px) {
+            font-size: 1.7rem;
+          }
+        }
+        .logoForm-img {
+          max-width: 3.2rem;
+          display: block;
+          @media (max-width: 1199.98px) {
+            max-width: 3rem;
+          }
+          @media (max-width: 991.98px) {
+            max-width: 2.85rem;
+          }
+          @media (max-width: 767.98px) {
+            max-width: 2.75rem;
+          }
+          @media (max-width: 520px) {
+            max-width: 2.6rem;
+          }
+        }
+      }
+      .inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        .label-input {
+          color: #d9aa11;
+          opacity: 0.85;
+        }
+        .input {
+          padding: 0.7rem;
+          min-width: 100%;
+          border: 2px solid #d9aa11;
+          border-radius: 5px;
+          &:focus {
+            outline-color: #d9aa11;
+          }
+        }
+        .signUp-link {
+            color: #d9aa11aa;
+            cursor: pointer;
+        }
+      }
+      .signUp-btn {
+        border: none;
+        padding: 0.8rem 5rem;
+        border-radius: 0.4rem;
+        font-size: large;
+        font-weight: 500;
+        background-color: #d9aa11;
+        color: #fff;
+        @media(max-width:510px) {
+          width: 100%;
+      }
+        &:hover {
+          background-color: #d9aa11c7;
+        }
+      }
+    }
+  }

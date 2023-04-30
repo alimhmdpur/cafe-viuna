@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="./assets/image/leaf.svg" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css"
+          integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Cafe Viuna | منوی کافه</title>
+      </head>
+<body dir="rtl">
+  <header>
+    <nav class="navbar navbar-expand-md">
+      <div class="container-lg">
+        <a class="navbar-brand" href="#"
+          ><img class="logo-navbar" src="./assets/image/logo.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="toggler"
+            ><img src="./assets/image/Hamburger_icon.svg" alt=""
+          /></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img
+                class="logo-offcanvas"
+                src="./assets/image/logo.svg"
+                alt=""
+              />
+            </h5>
+            <button
+              type="button"
+              class="close-btn"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ><img class="close-icon" src="./assets/image/close-btn.svg" alt=""></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html"
+                  >صفحه اصلی</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./signIn.html"
+                  >ورود</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./signUp.html">ثبت نام</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-lg">
+      <div class="mb-4">
+        <img
+          class="d-inline-block img-title-resturanMenu"
+          src="./assets/image/logo/pizza-svgrepo-com.svg"
+          alt=""
+        />
+        <h1 class="d-inline-block text-danger title-resturanMenu">
+          منوی رستوران
+        </h1>
+      </div>
+      <div class="row gx-3 gx-sm-4 align-items-start coffeeMenu">
+        <div class="col-3 bg-coffee rounded-2">
+          <div class="row gy-3 p-1 p-sm-2 p-lg-3 py-2">
+            <div class="col-lg-6 col-12">
+              <div
+                class="d-flex flex-column bg-light p-1 p-sm-2 p-lg-1 rounded-2 gap-2 min-h-100"
+                id="hotDrinkMenu"
+              >
+                <img
+                  class="d-block img-menu"
+                  src="./assets/image/logo/pizza.png"
+                  alt=""
+                />
+                <label
+                  class="d-block text-center bg-coffee p-1 rounded-1 text-light fw-medium"
+                  >نوشیدنی گرم</label
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div
+                class="d-flex flex-column bg-light p-1 p-sm-2 p-lg-1 rounded-2 gap-2 min-h-100"
+                id="coolDrinkMenu"
+              >
+                <img
+                  class="d-block img-menu"
+                  src="./assets/image/logo/spaghetti.png"
+                  alt=""
+                />
+                <label
+                  class="d-block text-center bg-coffee p-1 rounded-1 text-light fw-medium"
+                  >نوشیدنی سرد</label
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div
+                class="d-flex flex-column bg-light p-1 p-sm-2 p-lg-1 rounded-2 gap-2 min-h-100"
+                id="cakeMenu"
+              >
+                <img
+                  class="d-block img-menu"
+                  src="./assets/image/logo/lasagna.png"
+                  alt=""
+                />
+                <label
+                  class="d-block text-center bg-coffee p-1 rounded-1 text-light fw-medium"
+                  >کیک</label
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div
+                class="d-flex flex-column bg-light p-1 p-sm-2 p-lg-1 rounded-2 gap-2 min-h-100"
+                id="iceCreamMenu"
+              >
+                <img
+                  class="d-block img-menu"
+                  src="./assets/image/logo/french-fries.png"
+                  alt=""
+                />
+                <label
+                  class="d-block text-center bg-coffee p-1 rounded-1 text-light fw-medium"
+                  >بستنی</label
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div
+                class="d-flex flex-column bg-light p-1 p-sm-2 p-lg-1 rounded-2 gap-2 min-h-100"
+                id="joiceMenu"
+              >
+                <img
+                  class="d-block img-menu"
+                  src="./assets/image/logo/salad.png"
+                  alt=""
+                />
+                <label
+                  class="d-block text-center bg-coffee p-1 rounded-1 text-light fw-medium"
+                  >آب میوه</label
+                >
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="row g-3 justify-content-center justify-content-sm-start mb-3 hotDrink"
+              >
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="bg-light p-2 rounded-3 d-flex flex-column product"
+                  >
+                    <div class="imgbox">
+                      <img
+                        class="d-block rounded-3 product-img"
+                        src="./assets/image/رستوران/fast food/پیتزا/پپرونی/01-pepperoni.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <label class="my-3">پیتزا پپرونی</label>
+                      <p class="fw-medium"></p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-end align-items-center gap-2 fw-medium bg-coffee px-2 py-1 text-light rounded-2"
+                    >
+                      <span class="price d-block">۲۵۰,۰۰۰</span>
+                      <span class="price-title d-block">تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="bg-light p-2 rounded-3 d-flex flex-column product"
+                  >
+                    <div class="imgbox">
+                      <img
+                        class="d-block rounded-3 product-img"
+                        src="./assets/image/رستوران/fast food/پیتزا/گوشت و قارچ/beef-mushroomm.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <label class="my-3">پیتزا گوشت و قارچ</label>
+                      <p class="fw-medium"></p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-end align-items-center gap-2 fw-medium bg-coffee px-2 py-1 text-light rounded-2"
+                    >
+                      <span class="price d-block">۲۷۰,۰۰۰</span>
+                      <span class="price-title d-block">تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="bg-light p-2 rounded-3 d-flex flex-column product"
+                  >
+                    <div class="imgbox">
+                      <img
+                        class="d-block rounded-3 product-img"
+                        src="./assets/image/رستوران/fast food/پیتزا/مخلوط/lrr7jlegj1vd4lbu7ikimm63tvde4ue4cObwPNjxJdbkSELH.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <label class="my-3">پیتزا پپرونی</label>
+                      <p class="fw-medium"></p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-end align-items-center gap-2 fw-medium bg-coffee px-2 py-1 text-light rounded-2"
+                    >
+                      <span class="price d-block">۲۶۰,۰۰۰</span>
+                      <span class="price-title d-block">تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="bg-light p-2 rounded-3 d-flex flex-column product"
+                  >
+                    <div class="imgbox">
+                      <img
+                        class="d-block rounded-3 product-img"
+                        src="./assets/image/رستوران/fast food/پیتزا/سبزیجات/53548envh.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <label class="my-3">پیتزا پپرونی</label>
+                      <p class="fw-medium"></p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-end align-items-center gap-2 fw-medium bg-coffee px-2 py-1 text-light rounded-2"
+                    >
+                      <span class="price d-block">۲۴۰,۰۰۰</span>
+                      <span class="price-title d-block">تومان</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row g-3 justify-content-center justify-content-sm-start mb-3 coolDrink"
+                
+              >
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+                  <div class="bg-light rounded-3 d-flex flex-column product">
+                    <div class="imgbox">
+                      <img
+                        class="d-block rounded-3 product-img"
+                        src="./assets/image/رستوران/fast food/پاستا/مک اند چیز/طرز-تهیه-مک-اند-چیز-در-خانه.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <label class=" my-3"
+                        >پاستا مک اند چیز</label
+                      >
+                      <p class="fw-medium"></p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-end align-items-center gap-2 fw-medium bg-coffee px-2 py-1 text-light rounded-2"
+                    >
+                      <span class="price d-block">۲۲۵,۰۰۰</span>
+                      <span class="price-title d-block">تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+                  <div class="bg-light rounded-3 d-flex flex-column product">
+                    <div class="imgbox">
+                      <img
+                        class="d-block rounded-3 product-img"
+                        src="./assets/image/رستوران/fast food/پاستا/پستو/How-to-make-pasta-with-Pesto-sauce.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <label class=" my-3">پاستا پستو</label>
+                      <p class="fw-medium"></p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-end align-items-center gap-2 fw-medium bg-coffee px-2 py-1 text-light rounded-2"
+                    >
+                      <span class="price d-block">۲۲۰,۰۰۰</span>
+                      <span class="price-title d-block">تومان</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+                  <div class="bg-light rounded-3 d-flex flex-column product">
+                    <div class="imgbox">
+                      <img
+                        class="d-block rounded-3 product-img"
+                        src="./assets/image/رستوران/fast food/پاستا/چیکن الفردو/eulyw6wvrlbb.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <label class=" my-3"
+                        >پاستا چیکن الفردو</label
+                      >
+                      <p class="fw-medium"></p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-end align-items-center gap-2 fw-medium bg-coffee px-2 py-1 text-light rounded-2"
+                    >
+                      <span class="price d-block">۲۱۰,۰۰۰</span>
+                      <span class="price-title d-block">تومان</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row g-3 justify-content-center justify-content-sm-start mb-3 cake"
+
+              ></div>
+              <div
+                class="row g-3 justify-content-center justify-content-sm-start mb-3 iceCream"
+              ></div>
+              <div
+                class="row g-3 justify-content-center justify-content-sm-start mb-3 joice"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

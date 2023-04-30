@@ -1,0 +1,96 @@
+.container-lg {
+    .footer {
+        margin-bottom: 1rem;
+        background-color: #6f4e37;
+    border-radius: 2rem;
+        padding: 3rem 1rem;
+        @media(max-width:576px) {
+            padding: 2rem 1rem;
+        }
+        .row {
+            .col-md-6 {
+                .d-flex {
+                    .label-support {
+                        color: #d9aa11;
+                        font-size: x-large;
+                    }
+                    .d-flex {
+                        .social-media {
+                            display: block;
+                            .icon {
+                                width: 1.5rem;
+                                &:hover {
+                                    padding-bottom: 0.4rem;
+                                    transition: 170ms;
+                                    cursor: pointer;
+                                    transition: 0.3s;
+                                }
+                            }
+                        }
+                    }
+                }
+                .relationships {
+                    margin-top: 1rem;
+                    .relationship-item {
+                        padding-bottom: 0.65rem;
+                        span {
+                            color: #d9aa11;
+                            font-weight: 500;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: #d9aa1188;
+                            padding-right: 1rem;
+                            cursor: pointer;
+                            &:hover {
+                                opacity: 0.5;
+                                transition: 0.3s;
+                            }
+                        }
+                        address {
+                            text-decoration: none;
+                            color: #d9aa1188;
+                            padding-right: 1rem;
+                        }
+                    }
+                }
+                .login {
+                    .label-login {
+                        color: #d9aa11;
+                        font-size: x-large;
+                    }
+                    ul {
+                        margin-top: 1rem;
+                        list-style-type: none;  
+                        padding-right: 0;
+                        li {
+                            &::marker {
+                                display: none;
+                            }
+                            a {
+                                text-decoration: none;
+                                cursor: pointer;
+                                color: #d9aa11;
+                                font-weight: 500;
+                                &:hover {
+                                    opacity: 0.5;
+                                    transition: 0.3s;
+                                }
+                            }
+                        }
+                    }
+                }
+                .box {
+                    padding: 1.2rem 1rem;
+                    background-color: #d9aa1122;
+                    border-radius: 1.5rem;
+                    .worktime {
+                        color: #d9aa11;
+                        font-weight: 500;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

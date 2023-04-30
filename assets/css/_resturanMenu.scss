@@ -1,0 +1,96 @@
+.mb-4 {
+  .img-title-resturanMenu {
+    max-width: 3.5rem;
+    margin-left: 0.5rem;
+  }
+  .title-resturanMenu {
+    font-weight: 700;
+    font-size: xx-large;
+  }
+}
+.resturanMenu {
+  // position: relative;
+  .col-3 {
+    // @media(max-width:991px) {
+    //     position: fixed;
+    // }
+    .row {
+      .col-lg-6 {
+        .d-flex {
+          .img-menu {
+            @media (max-width: 1399.98px) {
+              max-width: 4rem;
+              margin: 0 auto;
+            }
+            @media (max-width: 567.98px) {
+              max-width: 80%;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
+  .col-9 {
+    .row {
+      .col-12 {
+        .row {
+          .product {
+            min-height: 100%;
+            padding: 0.85rem;
+            .imgbox {
+              .product-img {
+                // object-fit: ;
+                width: 12rem;
+                max-width: 100%;
+                // max-height: 100%;
+                display: block;
+                margin: 0 auto;
+              }
+            }
+            .flex-grow-1 {
+                label {
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                }
+                p {
+                    font-size: 0.7rem;
+                    font-weight: 500;
+                }
+            }
+            .gap-2 {
+                font-size: 0.75rem;
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 1399.98px) {
+      max-height: 500px;
+    }
+    @media (max-width: 1199.98px) {
+      max-height: 433px;
+    }
+    @media (max-width: 990.98px) {
+      max-height: 1588px;
+    }
+    max-height: 568px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+      width: 7px;
+    }
+
+    // &::-webkit-scrollbar-track {
+    //     // -webkit-box-shadow: inset 0 0 6px #DC3545;
+    //     display: none;
+    //     // border-radius: 10px;
+    // }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #dc3545;
+      -webkit-box-shadow: inset 0 0 6px #dc3545;
+    }
+  }
+}

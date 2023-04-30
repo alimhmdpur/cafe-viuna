@@ -1,0 +1,81 @@
+.row {
+  .col-md-6 {
+    .mcLink {
+      &:hover {
+        .img-filter {
+          background-image: none;
+        }
+        .label-cafe {
+          display: block;
+        }
+        .img-main {
+          z-index: 3;
+        }
+      }
+      .label-cafe {
+        display: none;
+        background-color: #8b6245;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        padding: 1rem 0 1rem 0;
+        text-align: center;
+        z-index: 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+    .msLink {
+      &:hover {
+        .img-filter {
+          background-image: none;
+        }
+        .label-resturan {
+          display: block;
+        }
+        .img-main {
+          z-index: 3;
+        }
+      }
+      .label-resturan {
+        display: none;
+        background-color: #e71919;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        padding: 1rem 0 1rem 0;
+        text-align: center;
+        z-index: 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+    .menuLink {
+      color: #fff;
+      font-size: large;
+      font-weight: 600;
+      position: relative;
+      display: block;
+      text-decoration: none;
+      min-height: 100%;
+      .img-main {
+        // background-image: linear-gradient(to Right, #000000 20%, #ababab 80%);
+        border-radius: 1rem;
+        width: 100%;
+        max-width: 100%;
+        max-height: 40vh;
+        min-height: 40vh;
+      }
+      .img-filter {
+        border-radius: 1rem;
+        position: absolute;
+        inset: 0;
+        max-width: inherit;
+        background-image: linear-gradient(to top, #00000095 0%, #ffffff10 75%);
+        z-index: 2;
+      }
+    }
+  }
+}

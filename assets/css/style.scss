@@ -1,0 +1,26 @@
+@import "Header";
+@import "Main";
+@import "Footer";
+@import "signUp";
+@import "signIn";
+@import "resturanMenu";
+@import "cofeeMenu";
+
+body {
+    background-color: #e6d1c4;
+    main {
+        margin: 4.5rem 0;
+        @media(max-width:576px) {
+            margin: 2.5rem 0;
+        }
+    }
+    @media(max-width:576px) {
+        font-size: 15px;
+    }
+    @media(max-width:425px) {
+        font-size: 14px;
+    }
+    .bg-coffee {
+        background-color: #6f4e37;
+    }
+}
